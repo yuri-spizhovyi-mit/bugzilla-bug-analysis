@@ -92,4 +92,4 @@ bugzilla-analysis/
 **Yuri Spizhovyi**  
 MIT Emergent Talent Program (2024–2025)  
 QA Engineer → Aspiring Data Scientist  
-[GitHub Portfolio](https://github.com/yuri-spizhovyi-mit/bugzilla-bug-analysis) _(update this link)_
+[GitHub Portfolio](https://github.com/yuri-spizhovyi-mit/bugzilla-bug-analysis)

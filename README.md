@@ -34,10 +34,12 @@ It combines data cleaning, visualization, and early ML concepts — all tied to 
 
 ### 📊 Sample Visuals
 
-#### Bug Severity Distribution  
+#### Bug Severity Distribution
+
 ![Severity Chart](plots/severity_distribution.png)
 
-#### Word Cloud of Bug Descriptions  
+#### Word Cloud of Bug Descriptions
+
 ![Word Cloud](plots/wordcloud_all_bugs.png)
 
 ---
@@ -63,24 +65,25 @@ This project merges real-world QA insights with modern DS tools — bridging bot
 
 ## 🛠️ Tech Stack
 
-| Purpose            | Tools                         |
-|--------------------|-------------------------------|
-| Data wrangling     | `pandas`, `numpy`             |
+| Purpose            | Tools                                |
+| ------------------ | ------------------------------------ |
+| Data wrangling     | `pandas`, `numpy`                    |
 | Visualization      | `matplotlib`, `seaborn`, `wordcloud` |
-| Modeling (planned) | `scikit-learn`, `TfidfVectorizer` |
-| Notebook format    | `Jupyter Notebook`            |
-| Version control    | `Git`, `GitHub`               |
+| Modeling (planned) | `scikit-learn`, `TfidfVectorizer`    |
+| Notebook format    | `Jupyter Notebook`                   |
+| Version control    | `Git`, `GitHub`                      |
 
 ---
 
 ## 📌 Folder Structure
-bugzilla-analysis/ │ 
-├── data/ ← Raw and cleaned CSVs 
-├── notebooks/ ← Jupyter notebooks 
-├── plots/ ← Saved visualizations 
-├── src/ ← Scripts (e.g. preprocessing, modeling) 
-└── README.md ← This file
 
+bugzilla-analysis/
+│
+├── data/ ← Raw and cleaned CSVs
+├── notebooks/ ← Jupyter notebooks
+├── plots/ ← Saved visualizations
+├── src/ ← Scripts (e.g. preprocessing, modeling)
+└── README.md ← This file
 
 ---
 
@@ -89,5 +92,4 @@ bugzilla-analysis/ │
 **Yuri Spizhovyi**  
 MIT Emergent Talent Program (2024–2025)  
 QA Engineer → Aspiring Data Scientist  
-[GitHub Portfolio](https://github.com/your-username) *(update this link)*  
-
+[GitHub Portfolio](https://github.com/yuri-spizhovyi-mit/bugzilla-bug-analysis) _(update this link)_

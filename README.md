@@ -44,6 +44,31 @@ It combines data cleaning, visualization, and early ML concepts — all tied to 
 
 ---
 
+## 🤖 Text Classification (ML)
+
+This phase uses the bug `Description` field to predict whether a report is labeled as valid (1.0) or not (0.0).
+
+### ✅ Steps
+
+- Preprocessed text using `TfidfVectorizer`
+- Trained a `LogisticRegression` model
+- Evaluated with accuracy, precision, recall, and F1-score
+- Visualized results with a confusion matrix
+
+### 🔍 Confusion Matrix
+
+![Confusion Matrix](plots/confusion_matrix.png)
+
+---
+
+## 📌 Key Insights
+
+- Model performed with strong accuracy on test set
+- Shows potential for use in automated bug triage systems
+- Next step: try additional models or optimize with hyperparameters
+
+---
+
 ## 🤖 Future Work: ML Classification
 
 Planned next steps:
